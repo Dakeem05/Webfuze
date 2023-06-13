@@ -1,0 +1,15 @@
+.App{
+    margin-left: 5em;
+    margin-top: 2em;
+}
+#welcome{
+    font-weight: 500;
+    margin-bottom: -2em;
+}
+#buddy{
+    margin-bottom: -0.4em;
+}
+#sign{
+    font-weight: 500;
+
+}

@@ -1,0 +1,978 @@
+
+.header{
+    background-color: rgb(51, 51, 116);
+    color: #fff;
+}
+#nav{
+    color: #fff;
+    font-size: 1vw;
+    text-decoration: none;
+}
+#link{
+    text-decoration: none;
+    /* color: green; */
+    
+}
+#title{
+    color: #fff;
+    font-size: 2vw;
+    text-decoration: none;
+    /* text-underline-offset: none; */
+    /* list-style-type: none; */
+}
+#title:hover{
+    transition: 0.8s;
+    opacity: 0.8;
+    cursor: pointer;
+}
+#enrollbtnnav{
+    margin-top: 2em;
+}
+button:hover{
+    transition: 0.8s;
+    opacity: 0.5;
+    cursor: pointer;
+}
+#headerHome{
+    /* position: relative; */
+    overflow-x: hidden;
+    margin-top: -8em;
+    padding-top: 8em;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 43vw;
+    margin-left: 8vw;
+}
+.ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    
+}
+#nav:hover{
+    transition: 0.8s;
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+#nav:current{
+    color: black;
+}
+.hero{
+    margin-left: 8vw;
+    display: flex;
+    height: 20em;
+    gap: 13em;
+    flex-direction: row;
+    margin-top: 6em;
+    margin-right: 3vw;
+}
+#build{
+    margin-top: -3em;
+    /* width: 39em; */
+    font-weight: lighter;
+}
+.getstarted{
+    height: 2rem;
+    width: 10em;
+    border-radius: 3px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin-right: 1em;
+}
+#pre{
+    font-weight: lighter;
+    font-size: 0.4em;
+    margin-left: 1em;
+}
+#k{
+    font-size: 0.7em;
+    font-weight: bolder;
+    margin-bottom: -1em;
+    margin-left: 0.6em;
+}
+.enrollbtn{
+    height: 2rem;
+    width: 8em;
+    border-radius: 3px;
+    background-color: #fff;
+    color: rgb(51, 51, 116);
+    border: none; 
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.previews{
+    display: flex;
+    margin-top: 1em;
+    flex-direction: row;
+}
+.cirI{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#cir1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#cir2{
+    width: 30px;
+    height: 30px;
+    margin-left: -1em;
+    border-radius: 50%;
+}
+#cir3{
+    width: 30px;
+    height: 30px;
+    margin-left: -1em;
+    border-radius: 50%;
+}
+#cir4{
+    width: 30px;
+    height: 30px;
+    margin-left: -1em;
+    border-radius: 50%;
+}
+#cir5{
+    width: 30px;
+    height: 30px;
+    margin-left: -1em;
+    border-radius: 50%;
+}
+#heropic{
+    width: 300px;
+    position: absolute;
+    margin-top: -3em;
+}
+.platforms{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 3vw; */
+    height: 3em;
+    margin-top: -1em;
+    padding-top: 1em;
+    background-color: aquamarine;
+    /* width: 100em; */
+}
+li{
+    list-style-type: none;
+    margin-left: 9vw;
+}
+.hero2{
+    display: flex;
+    flex-direction: row;
+    gap: 19.9em;
+    margin-top: 2em;
+    margin-left: 8vw;
+    margin-right: 2vw;
+}
+.cir{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+#cir11{
+    width: 20px;
+    height: 20px;
+    border-radius:0.650%;
+}
+#cir12{
+    width: 20px;
+    height: 20px;
+    margin-left: -0.6em;
+    border-radius: 50%;
+}
+#cir13{
+    width: 20px;
+    height: 20px;
+    margin-left: -0.6em;
+    border-radius: 50%;
+}
+#cir14{
+    width: 20px;
+    height: 20px;
+    margin-left: -0.6em;
+    border-radius: 50%;
+}
+#cir15{
+    width: 20px;
+    height: 20px;
+    margin-left: -0.6em;
+    border-radius: 50%;
+}
+.students{
+    display: flex;
+    flex-direction: column;
+    width: 6em;
+    position: absolute;
+    margin-top: 3em;
+    height: 2.5em;
+    margin-left: -4em;
+    border-radius: 5px;
+    padding-left: 1em;
+    padding-bottom: 0.4em;
+    background-color: antiquewhite;
+}
+.big_img{
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid rgb(51, 51, 116);
+}
+.small_img{
+    width: 13em;
+    height: 12em;
+    object-fit: cover;
+    position: absolute;
+    margin-top: -7em;
+    margin-left: -5em;
+    border-radius: 10px;
+    border: 2px solid rgb(51, 51, 116);
+}
+#view{
+    height: 2rem;
+    width: 8em;
+    border-radius: 3px;
+    background-color: rgb(51, 51, 116);
+    color: #fff;
+    font-size: 10px;
+    border: none; 
+}
+.class{
+    background-color: #d6d2d2c9;
+    /* width: 9em; */
+    padding-left: 0.3em;
+    padding-right: 1em;
+    margin-right: 1em;
+    border-radius: 5px;
+    height: 2em;
+    margin-top: 1em;
+}
+#video{
+    margin-top: -3em;
+    /* width: 39em; */
+    font-weight: lighter;
+}
+#div{
+    display: flex;
+}
+#ne{
+    font-size: 0.3em;
+    /* font-weight: lighter; */
+}
+.classes1{
+    display: flex;
+    flex-direction: row;
+}
+.classes2{
+    display: flex;
+    flex-direction: row;
+}
+.hero3img{
+    width: 17em;
+    height: 11em;
+    object-fit: cover;
+    border-radius: 1em;
+}
+.hero3{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8vw;
+    gap: 8vw;
+    margin-right: 2vw;
+    margin-top: 8em;
+}
+.boxes1 {
+    position: relative;
+    /* left: 7em;
+    margin-right: 0.5vw; */
+}
+
+.box{
+    background-color: antiquewhite;
+    margin-bottom: 0.9em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    width: 8em;
+    height: 7em;
+    margin-right: 1em;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+/* .boxes2{
+    margin-left: 2m;
+     margin-left: -5em;  
+} */
+#this{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+#underthis{
+    font-size: 0.6em;
+    font-weight: lighter;
+}
+.boxes1 h2, .boxes2 h2{
+font-size: 0.5em;
+font-weight: bolder;
+}
+.boxes1 h6, .boxes2 h6{
+font-size: 0.1em;
+font-weight: lighter;
+}
+.courses{
+    margin-top: 3.5em;
+}
+.text4{
+    text-align: center;
+}
+/* .btns{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+} */
+.btn1{
+    margin-right: 2em;
+    background-color: transparent;
+    border: none;
+}
+.btn1:hover{
+    cursor: pointer;
+}
+.courseimg{
+    width: 25vw;
+    margin-left: 1.2em;
+    margin-top: 1em;
+    border-radius: 0.5em;
+    height: 15em;
+    object-fit: cover;
+}
+.course{
+    background-color: blanchedalmond;
+    margin-bottom: -1.5em;
+    border-radius: 1em;
+    /* margin-right: 5em; */
+    width: 28vw;
+}
+.components{
+    display: grid;
+    gap: 3vw;
+    margin-top: 1.2em;
+    margin-left: 6em;
+    grid-template-columns: 26vw 26vw 26vw;
+}
+#intro{
+    font-size: 1.3vw;
+}
+.coursetitle{
+    width: 23vw;
+    margin-top: -1em;
+    /* padding-top: -5em; */
+    margin-left: 1em;
+}
+.border1{
+    display: flex;
+    flex-direction: row;
+    margin-right: 1em;
+    gap: 19vw;
+    margin-top: 0.3em;
+    margin-left: 1em;
+}
+.category{
+    font-size: 0.5em;
+    color: blue;
+    background-color: aquamarine;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    border-radius: 1.5em;
+    margin-bottom: 2em;
+    
+}
+.rating{
+    font-size: 0.5em;
+    font-weight: lighter;
+}
+.border2{
+    display: flex;
+    flex-direction: row;
+    margin-right: 1em;
+    margin-left: 1em;
+    gap: 17vw;
+}
+.time{
+    padding-left: 1em;
+    padding-right: 1vw;
+    font-size: 0.6em;
+    font-weight: lighter;
+}
+.lessons{
+    font-size: 0.6vw;
+    font-weight: lighter;
+
+}
+.border3{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.cirtutor{
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    margin-right: 0.5vw;
+}
+.tutorname{
+    font-size: 0.8vw;
+    font-weight: bolder;
+    margin-right: 14vw;
+}
+.price{
+    font-size: 0.9em;
+    font-weight: bolder;
+    color: blue;
+}
+@media only screen and (max-width:953px){
+    #marborder2{
+        gap: 29.5vw;
+        margin-right: 0vw;
+        /* background-color: aqua; */
+    }
+    .hero2{
+        margin-right: 6vw;
+    }
+}
+@media only screen and (max-width:924px){
+    #marborder{
+        gap: 29.5vw;
+        margin-right: 0vw;
+        /* background-color: aqua; */
+    }
+}
+@media only screen and (max-width:1330px) {
+    .border1{
+        gap: 17vw;
+    }
+    .border2{
+        gap: 15vw;
+
+    }
+    .tutorname{
+        margin-right: 12;
+    }
+}
+@media only screen and (max-width:1220px) {
+    .home{
+        overflow-x: hidden;
+    }
+    #dev1border1{
+        gap: 27.5vw; 
+        /* margin-left: 1vw; */
+    }
+    #dev2border1{
+        gap: 27.5vw; 
+        /* margin-left: 1vw; */
+    }
+    .components{
+        display: grid;
+        /* padding-right: 3vw; */
+        /* margin-top: 1.2em; */
+        grid-column-gap: 4vw;
+        position: relative;
+        right: 4vw;
+        /* margin-left: 0vw;
+        margin-right: 2vw; */
+        /* justify-content: space-around; */
+        grid-template-columns: 40vw 40vw;
+        grid-column-gap: -5vw;
+        grid-row-gap: 2em;
+        /* grid-auto-columns: 40vw; */
+    }
+    .courseimg{
+        width: 39vw;
+    }
+    .course{
+        background-color: blanchedalmond;
+        margin-bottom: -1em;
+        border-radius: 1em;
+        /* margin-right: -5vw; */
+        /* margin-right: -12vw; */
+        width: 43vw;
+    }
+    .border1{
+        gap: 30vw;
+    }
+    .rating{
+        font-size: 0.8vw;
+    }
+    .lessons{
+        font-size: 0.8vw;
+    }
+    .border2{
+       gap: 28vw; 
+       margin-left: 1vw;
+    }
+    .tutorname{
+        margin-right: 25vw;
+    }
+    .btn1{
+        margin-right: 2vw;
+    }
+    .hero3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0vw;
+        margin-right: 6vw;
+        /* text-align: center; */
+    }
+    #underthis{
+        width: 80vw;
+    }
+    #video{
+        width: 80vw;
+        margin-left: 2vw;
+    }
+    #high2{
+        width: 80vw;
+        margin-left: 4vw;
+    }
+    .text3{
+        text-align: center;
+    }
+    .boxes{
+        gap: 2em;
+        /* margin-left: 10vw; */
+    }
+    .box {
+        width: 28vw;
+        /* margin-bottom: 6em; */
+        height: 5em;
+        /* padding-bottom: 0.2em; */
+    }
+    .boxes1{
+            display: flex;
+            flex-direction: column;
+            left: 2em;
+            margin-right: 0.1vw;
+    }
+    .boxes2{
+            display: flex;
+            flex-direction: column;
+    }
+    .hero3img{
+        width: 62.5vw;
+        height: 40vw;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        height: 40em;
+        text-align: center;
+        padding-left: 5vw;
+    }
+    #grow{
+        text-align: center;
+    }
+    #build{
+        /* text-align: center; */
+        padding-left: 2vw;
+    }
+
+   .previews{
+    padding-left: 34vw;
+   }
+   #heropic{
+    margin-left: -20vw;
+   }
+   .hero2{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    margin-left: 6vw;
+    text-align: center;
+   }
+   #video{
+    margin-right: 5vw;
+   }
+   .classes1{
+    padding-left: 27vw;
+   }
+   .classes2{
+    padding-left: 27vw;
+   }
+   .students{
+    margin-left: 27vw;
+   }
+   .small_img{
+        margin-left: -20vw;
+   }
+   #view{
+    margin-left: -8vw;
+   }
+}
+@media only screen and (max-width:880px) {
+    .home{
+        width: 95vw;
+    }
+    .tutorname{
+        font-size: 1.1vw;
+        font-weight: bold;
+        margin-right: 20vw;
+    }
+    .cirtutor{
+        width: 3.5vw;
+        height: 3.5vw;
+        border-radius: 50%;
+        margin-right: 0.5vw;
+    }
+    .courseimg{
+        margin-right: 1.6vw;
+        width: 38vw;
+    }
+    .border1{
+        gap: 28vw;
+        font-size: 1.5vw;
+        /* margin-left: 3vw; */
+    }
+    .rating{
+        font-size: 1.1vw;
+    }
+    .border2{
+        gap: 24vw;
+    }
+    .lessons{
+        font-size: 1.1vw;
+    }
+    .price{
+        font-size: 1.5vw;
+        font-weight: bolder;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        height: 45em;
+        text-align: center;
+        margin-right: 19vw;
+    }
+    #grow{
+        text-align: center;
+    }
+    #build{
+        text-align: center;
+        /* padding-left: 0vw; */
+        /* margin-left: -20vw; */
+    }
+
+   .previews{
+    padding-left: 25vw;
+   }
+   #heropic{
+    margin-left: -20vw;
+   }
+   .hero2{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    margin-left: 4vw;
+    text-align: center;
+   }
+   #high{
+    padding-left: -10vw;
+   }
+   #video{
+    /* padding-left: 6vw; */
+    margin-right: 5vw;
+   }
+   .classes1{
+    padding-left: 25vw;
+   }
+   .classes2{
+    padding-left: 25vw;
+   }
+   .students{
+    margin-left: 20vw;
+   }
+   .small_img{
+        margin-left: -30vw;
+   }
+   #view{
+    margin-left: -8vw;
+   }
+}
+@media only screen and (max-width:724px){
+    .border2{
+        gap: 25vw;
+    }
+}
+@media only screen and (max-width:680px) {
+    .components{
+        margin-left: 4vw;
+        right: 1vw;
+    }
+    .border1{
+        margin-bottom: 1em;
+    }
+    .border2{
+        gap: 23vw;
+    }
+    .border2 .time{
+        font-size: 1.2vw;
+        font-weight: bolder;
+    }
+     .courseimg{
+        /* margin-left: -0.4vw; */
+        width: 36vw;
+        padding-left: -9vw;
+    }
+    #build{
+        text-align: center;
+        /* padding-left: 0vw; */
+        margin-left: 4vw;
+    }
+    .platforms{
+        margin-left: -10vw;
+    }
+   .previews{
+    padding-left: 25vw;
+   }
+   #heropic{
+    margin-left: -27vw;
+   }
+   /* .hero2{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    text-align: center;
+   } */
+   /* #high{
+    padding-left: -10vw;
+   } */
+   #video{
+    padding-left: 6vw;
+   }
+   .classes1{
+    padding-left: 18vw;
+   }
+   .classes2{
+    padding-left: 18vw;
+   }
+   .students{
+    margin-left: 5em;
+   }
+   .small_img{
+        margin-left: -37vw;
+   }
+   #view{
+    margin-left: -8vw;
+   }
+}
+@media only screen and (max-width:480px) {
+    .border1{
+        margin-bottom: 3em;
+        margin-left: 4vw;
+        gap: 22vw;
+    }
+    #dev1border1{
+        gap: 22vw;
+        
+    }
+    #dev2border1{
+        gap: 22vw;
+        
+    }
+    #marborder{
+        gap: 22vw;
+        
+    }
+    #marborder2{
+        gap: 22vw;
+        
+    }
+    .border2{
+        margin-left: 3vw;  
+        gap: 19vw; 
+    }
+    .tutorname{
+        margin-right: 15vw;
+    }
+    .cirtutor{
+        position: relative;
+        bottom: 0.6em;
+        /* padding-top: 1em; */
+    }
+    #intro{
+        
+        margin-bottom: 2em;
+    }
+    .home{
+        width: 90vw;
+    }
+    .text{
+        overflow-y: fixed;
+    }
+    .courseimg{
+        object-fit: contain;
+        height: 10em;
+        border-radius: 1em;
+        /* margin-right: 2vw; */
+        position: relative;
+        left: -3vw;
+        width: 39vw;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        height: 50em;
+        text-align: center;
+        margin-bottom: -20vw;
+        margin-right: 19vw;
+    }
+    /* #grow{
+        text-align: center;
+    } */
+    #build{
+        text-align: center;
+        /* padding-left: 0vw; */
+        /* margin-left: 10vw; */
+        /* text-overflow: wrap; */
+        /* text-size-adjust: auto; */
+    }
+    .platforms{
+        margin-left: -4vw;
+        /* margin-top: 10vw; */
+        /* width: 100vw; */
+    }
+    h1{
+        font-size: 5vw;
+        font-weight: bolder;
+    }
+    li{
+        margin-left: 4vw;
+        font-size: 3vw;
+    }
+   .previews{
+    padding-left: 16vw;
+   }
+   #heropic{
+    margin-left: -27vw;
+    width: 60vw;
+   }
+   .box {
+    width: 29vw;
+    /* margin-bottom: 6em; */
+    height: 7em;
+    /* padding-bottom: 0.2em; */
+    }
+     .getstarted{
+    /* margin-left: ; */
+    font-size: 3.5vw;
+    }
+    .class{
+        font-size: 3vw;
+    }
+    #enrollbtn2{  
+    font-size: 3.5vw;
+   }
+   #video{
+    padding-left: 0vw;
+   }
+   .classes1{
+    padding-left: 18vw;
+   }
+   .classes2{
+    padding-left: 18vw;
+   }
+   .cir{
+    width: 4vw;
+    height: 44w;
+    border-radius: 50%;
+   }
+   #cir11{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+   }
+   #cir12{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+   }
+   #cir13{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+   }
+   #cir14{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+   }
+   #cir15{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+   }
+   .students{
+    width: 15vw;
+    /* height: 10vw; */
+    margin-left: 5vw;
+    padding-bottom: 3vw;
+    padding-left: 2vw;
+    margin-top: 8vw;
+   }
+   .big_img{
+    width: 60vw;
+    margin-left: 10vw;
+   }
+   .small_img{
+        margin-right: 46vw;
+        width: 40vw;
+        height: 30vw;
+        margin-top: -22vw;
+   }
+   #view{
+    margin-left: -8vw;
+   }
+   .btn1{
+        margin-right: 1vw;
+        font-size: 3vw;
+    }
+}
+@media only screen and (max-width:320px){
+    .courseimg{
+        width: 35vw;
+        /* padding-bottom: -6em; */
+        /* padding-top: -6em; */
+    }
+
+    #intro{
+        margin-top: 5em;
+    }
+    .border1{
+        /* position: relative; */
+        /* margin-top: -9em; */
+        font-size: 2.5vw;
+        gap: 18vw;
+    }
+    #dev2border1{
+        gap: 18vw;
+
+    }
+    #dev1border1{
+        gap: 18vw;
+
+    }
+}
